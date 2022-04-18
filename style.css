@@ -12,6 +12,8 @@ body {
     height: 35px;
     background-color: #1F2937;
     color: white;
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
 .content {
@@ -24,12 +26,9 @@ body {
 /* HEADER SPECIFICS */
 
 .header {
-    flex: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 40px;
-    padding-left: 40px;
 }
 
 .header.logo {
@@ -48,4 +47,12 @@ body {
 .header a {
     text-decoration: none;
     color: white;
+}
+
+/* FOOTER SPECIFICS */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
