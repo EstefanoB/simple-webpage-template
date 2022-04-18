@@ -7,19 +7,20 @@ body {
     margin: 0;
 }
 
+.header, .content, .footer {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
 .header, .footer {
     flex: 0 auto;
     height: 35px;
     background-color: #1F2937;
     color: white;
-    padding-right: 40px;
-    padding-left: 40px;
 }
 
 .content {
     flex: 1 1 auto;
-    display: flex;
-    flex-direction: column;
 }
 
 
@@ -48,6 +49,15 @@ body {
     text-decoration: none;
     color: white;
 }
+
+
+/* CONTENT SPECIFICS */
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
 
 /* FOOTER SPECIFICS */
 
