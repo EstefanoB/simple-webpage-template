@@ -1,0 +1,16 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .footer {
+    flex: 0 auto;
+    height: 35px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.content {
+    flex: 1 1 auto;
+}
