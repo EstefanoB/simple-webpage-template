@@ -1,4 +1,4 @@
-# WEB-PAGE
+# WEBPAGE
 
 > Creating webpage to reinforce html/css concepts.
 
