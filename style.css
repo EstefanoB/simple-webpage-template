@@ -113,6 +113,18 @@ body {
 
     /* INFORMATION SPECIFICS */
 
+    .content .information .title{
+        text-align: center;
+        margin: 10px;
+    }
+
+    .content .information .text-images {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+
 /* FOOTER SPECIFICS */
 
 .footer {
