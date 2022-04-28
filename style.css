@@ -87,7 +87,7 @@ body {
         margin: 8px 0;
     }
 
-    .content button{
+    .content .introduction button{
         background-color: #3882F6;
         color: #F9FAF8;
         border: none;
@@ -95,11 +95,11 @@ body {
         padding: 3px 15px;
     }
 
-    .content button:hover {
+    .content .introduction button:hover {
         background-color: #1867e6;
     }
 
-    .content button:active {
+    .content .introduction button:active {
         background-color: #1867e6;
         transform: translateY(3px);
     }
