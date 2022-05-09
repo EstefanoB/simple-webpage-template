@@ -145,6 +145,18 @@ body {
         border-radius: 7px;
     }
 
+    /* QUOTE SPECIFICS */
+
+    .content .quote {
+        background-color: #E5E7EB;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 35px;
+    }
+
 /* FOOTER SPECIFICS */
 
 .footer {
