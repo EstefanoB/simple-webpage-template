@@ -157,6 +157,20 @@ body {
         padding: 35px;
     }
 
+    .content .quote em {
+        width: 600px;
+        font-size: 28px;
+        text-align: justify;
+        color: #1F2937;
+    }
+    
+    .content .quote .author{
+        width: 600px;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: right;
+    }
+
 /* FOOTER SPECIFICS */
 
 .footer {
