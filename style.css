@@ -60,6 +60,26 @@ body {
     flex-direction: column;
 }
 
+    /* BUTTONS */
+
+    .content button {
+        color: #F9FAF8;
+        font-weight: 700;
+        vertical-align: middle;
+        background-color: #3882F6;
+        border-radius: 5px;
+        padding: 4px 25px;
+    }
+
+    .content button:hover {
+        background-color: #1867e6;
+    }
+
+    .content button:active {
+        background-color: #1867e6;
+        transform: translateY(3px);
+    }
+
     /* INTRODUCTION SPECIFICS */
 
     .content .introduction {
@@ -88,20 +108,7 @@ body {
     }
 
     .content .introduction button {
-        background-color: #3882F6;
-        color: #F9FAF8;
         border: none;
-        border-radius: 5px;
-        padding: 3px 15px;
-    }
-
-    .content .introduction button:hover {
-        background-color: #1867e6;
-    }
-
-    .content .introduction button:active {
-        background-color: #1867e6;
-        transform: translateY(3px);
     }
 
     .content .introduction img {
@@ -184,6 +191,11 @@ body {
         padding: 25px 50px;
         background-color: #3882F6;
         border-radius: 10px;
+    }
+
+    .content .sign-up button {
+        border: 2px solid #F9FAF8;
+        margin-left: 15px;
     }
 
     .content .sign-up .card .title,
