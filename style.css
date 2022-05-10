@@ -168,10 +168,38 @@ body {
         color: #1F2937;
     }
     
-    .content .quote .author{
+    .content .quote .author {
         font-size: 18px;
         font-weight: 700;
         text-align: right;
+    }
+
+    /* SIGN-UP SPECIFICS */
+
+    .content .sign-up .card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 45px;
+        padding: 25px 50px;
+        background-color: #3882F6;
+        border-radius: 10px;
+    }
+
+    .content .sign-up .card .title,
+    .content .sign-up .card .subtitle {
+        color: #F9FAF8;
+    }
+
+
+    .content .sign-up .card .title {
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+
+    .content .sign-up .card .subtitle {
+        font-size: 14px;
     }
 
 /* FOOTER SPECIFICS */
